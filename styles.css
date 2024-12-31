@@ -1,0 +1,456 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+background-color: #f5f5f5;
+transition: all 0.3s ease;
+
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+button{
+    padding: 8px 20px;
+}
+.container{
+    max-width:1520px;
+    height: auto;
+    margin: 0 auto;
+}
+.header-wrapper{
+    display: flex;
+    width: 100%;
+    height: 100px;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #ffff;  
+    padding: 0 30px;  
+}
+.header-left-logo img{
+    width: 200px;
+    height: auto;
+}
+.header-nav ul{
+    display: flex;
+    gap: 20px;
+    list-style-type: none;
+    
+}
+.header-nav ul{
+    font-size: 18px;
+    font-weight: 500;
+}
+.header-right-log{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+}
+.login-btn{
+    padding: 10px 25px;
+    border: none;
+    border-radius: 50px;
+    font-size: 18px;
+    font-weight: bold;
+}
+.started-btn{
+    padding: 10px 25px;
+    border: none;
+    font-size: 22px;
+    border-radius: 30px;
+    color: #ddd;
+    background-color: black;
+    
+}
+.nav-right-logo{
+    width: 35px;
+    height: auto;
+}
+.main-section{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+.main-section img{
+    position: relative;
+    object-fit: cover;
+    border: none;
+    width: 1520px;
+    z-index: -191;
+}
+.find-area{
+   
+    position: absolute;
+    background-color: white;
+    padding: 50px 100px;
+    text-align: center;
+  
+}
+.find-area h2{
+    font-size: 40px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+.select-btn{
+    padding: 15px 37px;
+    margin: 0 10px;
+    text-align: left;
+    background-color: #ece7e7;
+    border: none;
+    border-radius: 5px;
+}
+.find-bottom-btn{
+    margin-top: 30px;
+}
+.find-btn-one{
+    padding: 10px 200px;
+    margin-right: 10px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+}
+.find-btn-two{
+    padding: 10px 40px;
+    background-color: aqua;
+    border: none;
+    border-radius: 20px;
+    font-weight: bold;
+    color: black;
+    font-size: 18px;
+
+}
+.buy-sell{
+    background-color: #fde24f;
+    text-align: center;
+
+}
+.buy-sell h2{
+    padding: 50px 10px;
+    font-size: 30px;
+    margin-bottom: 20px;
+    font-weight: 600;
+}
+.buy-sell-icon{
+    padding: 60px 80px;
+    font-size: 60px;
+    
+ 
+}
+.buy-sell-icon i{
+    margin-right: 40px;
+    padding: 20px 30px 40px 30px;
+}
+.features-section{
+    padding: 50px 100px;
+}
+.features-section h2{
+    font-size: 30px;
+    font-weight: bold;
+    padding: 50px 0;
+
+}
+.card-wrapper{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+}
+.feature-card{
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.feature-card img{
+    width: 70px;
+    height: auto;
+}
+.feature-card h4{
+    font-size: 18px;
+    margin: 10px 0;
+}
+.feature-card p{
+    font-size: 14px;
+    padding: 5px 10px;
+    text-align: justify;
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
+.feature-card a{
+    border-bottom: 1px solid rgb(129, 126, 126);
+    font-size: 14px;
+    font-weight: bold;
+}
+.feature-btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 60px;
+    
+}
+.feature-btn button{
+    border-radius: 20px;
+}
+.buy-sell-section{
+    position: relative;
+}
+.buy-sell-wrapper{
+    padding: 30px 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 30px;
+}
+.buy-area{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.buy-area h2{
+    margin-bottom: 30px;
+    font-size: 30px;
+}
+.buy-area-content{
+    display: flex;
+    gap: 40px;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid rgb(90, 88, 88);
+    padding: 12px 15px;
+    border-radius: 10px;
+    font-size: 18px;
+}
+.buy-area-content img{
+    width: 55px;
+    height: auto;
+    
+    
+}
+.buy-offer-btn{
+    font-size: 20px;
+    font-weight: bold;
+    padding: 12px 15px;
+    width: 210px;
+    color: white;
+    border: none;
+    background-color: black;
+    margin: 0 auto;
+    border-radius: 20px;
+   
+}
+.started-area{
+    background-color: rgb(172, 135, 172);
+    position: relative;
+    width: 100%;
+    height: 500px;
+}
+.started-area h2{
+    text-align: center;
+    font-size: 60px;
+   padding-top: 120px;
+  
+}
+.started-btm-btn{
+   position: absolute;
+    bottom: 100px;
+    right: 620px;
+    font-size: 25px;
+    padding: 15px 40px;
+    color: white;
+    background-color: black;
+    border-radius: 50px;
+}
+.footer-wrapper{
+    background-color: black;
+}
+.footer-content-wraper{
+    padding: 50px 30px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.footer-content-wraper h3{
+    font-size: 30px;
+    padding: 30px 0;
+    color: white;
+
+}
+.footer-content-wraper ul{
+    list-style-type: none;
+}
+.footer-content-wraper ul li{
+   
+    
+}
+.footer-content-wraper ul li a{
+    font-size: 18px;
+    color: white;
+    
+}
+.footer-hr{
+    
+}
+.footer-copyright{
+    padding: 20px 30px;
+}
+.footer-copyright p{
+    color:#ddd;
+    text-align:center;
+}
+.vr{
+    width: 1px;
+    height: 100%;
+    border: 1px solid rgb(167, 168, 167);
+    display: inline-block;
+    position:absolute;
+    left: 755px;
+}
+/* Responsive design */
+@media only screen and (max-width: 600px) {
+     .header-wrapper{
+        flex-direction: column;
+       height: 150px;
+       margin-bottom: 15px;
+      
+    }
+    .header-nav ul{
+        flex-direction: column;
+       
+    }
+    .header-right-log{
+        display: none;
+    }
+    .select{
+        display: flex;
+        flex-direction: column;
+    }
+    .select-btn{
+        
+        margin-bottom: 10px;
+    }
+    .find-btn-two{
+        margin-top: 15px;
+    }
+    .card-wrapper{
+        flex-direction: column;
+    }
+    .feature-card{
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    .buy-sell-wrapper{
+       flex-direction: column;
+    }
+    .vr{
+        display: none;
+      }
+      .started-btm-btn{
+         display: none;
+      }
+      .footer-content-wraper{
+        flex-direction: column;
+        align-items: center;
+      }
+}
+
+@media only screen and (min-width: 600px) {
+    .header-nav ul{
+        display: none;
+    }
+    .select{
+        display: flex;
+        flex-direction: column;
+    }
+    .select-btn{
+        margin-bottom: 10px;
+    }
+    .find-bottom-btn{
+        margin-top: 10px;
+    }
+    .find-btn-two{
+        margin-top: 15px;
+    }
+    .card-wrapper{
+        flex-direction: column;
+    }
+    .feature-card{
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    .buy-sell-wrapper{
+        gap:20px;
+      }
+      .vr{
+        display: none;
+      }
+      .started-btm-btn{
+            display: none;
+       }
+}
+@media only screen and (min-width: 768px) {
+    .header-nav ul{
+        display: none;
+    }
+    .select{
+        display: flex;
+        flex-direction: column;
+    }
+    .select-btn{
+        
+        margin-bottom: 10px;
+    }
+    .find-btn-two{
+        margin-top: 15px;
+    }
+    .card-wrapper{
+        flex-direction: row;
+    }
+    .feature-card{
+        margin-top: 2px;
+        margin-bottom: 2px;
+    }
+    .buy-sell-wrapper{
+       gap:20px;
+     }
+    
+}
+
+@media only screen and (min-width: 992px) {
+    .header-nav ul{
+       display: block;
+        flex-direction: row;
+    }
+    .select{
+        display: flex;
+        flex-direction: row;
+    }
+    .select-btn{
+       
+        margin-bottom: 10px;
+    }
+    started-btm-btn{
+        display: block;
+    }
+}
+
+@media only screen and (min-width:1200px){
+
+    .header-right-log{
+        display: flex;
+        flex-direction: row;
+    }
+    .card-wrapper{
+        flex-direction: row;
+    }
+    .feature-card{
+        margin-top: 2px;
+        margin-bottom: 2px;
+    }
+    .started-btm-btn{
+        display: block;
+    }
+}
+
+
