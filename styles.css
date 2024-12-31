@@ -309,15 +309,9 @@ button{
 }
 /* Responsive design */
 @media only screen and (max-width: 600px) {
-     .header-wrapper{
-        flex-direction: column;
-       height: 150px;
-       margin-bottom: 15px;
-      
-    }
-    .header-nav ul{
-        flex-direction: column;
-       
+   
+    .header-nav {
+        display: none;
     }
     .header-right-log{
         display: none;
@@ -356,9 +350,29 @@ button{
 }
 
 @media only screen and (min-width: 600px) {
-    .header-nav ul{
+    .header-wrapper{
+        flex-direction: column;
+      
+       
+    }
+    .started-btn{
         display: none;
     }
+
+    .header-nav {
+        display: none;
+    }
+    .nav-right-logo{
+        display: none;
+    }
+    .header-right-log{
+        flex-direction: column;
+
+    }
+    .header-wrapper ul{
+        flex-direction: column;
+    }
+   
     .select{
         display: flex;
         flex-direction: column;
@@ -380,6 +394,7 @@ button{
         margin-bottom: 20px;
     }
     .buy-sell-wrapper{
+        flex-direction: column;
         gap:20px;
       }
       .vr{
@@ -388,11 +403,21 @@ button{
       .started-btm-btn{
             display: none;
        }
+       .footer-content-wraper{
+        flex-direction: column;
+       }
 }
 @media only screen and (min-width: 768px) {
-    .header-nav ul{
+    .header-wrapper{
+        flex-direction: column;
+    }
+    .header-wrapper ul{
+        flex-direction: row;
+    }
+    .started-btn{
         display: none;
     }
+
     .select{
         display: flex;
         flex-direction: column;
@@ -414,13 +439,26 @@ button{
     .buy-sell-wrapper{
        gap:20px;
      }
-    
+     .footer-content-wraper{
+        flex-direction: column;
+       }
 }
 
 @media only screen and (min-width: 992px) {
-    .header-nav ul{
-       display: block;
+    .header-wrapper{
         flex-direction: row;
+    }
+    .started-btn{
+        display: block;
+    }
+    .header-nav{
+        display: block;
+    }
+    .header-right-log{
+        flex-direction: row;
+    }
+    .nav-right-logo{
+        display: block;
     }
     .select{
         display: flex;
@@ -433,14 +471,18 @@ button{
     started-btm-btn{
         display: block;
     }
+    .buy-sell-wrapper{
+        flex-direction: row;
+       
+      }
+      .footer-content-wraper{
+        flex-direction: row;
+       }
 }
 
 @media only screen and (min-width:1200px){
 
-    .header-right-log{
-        display: flex;
-        flex-direction: row;
-    }
+    
     .card-wrapper{
         flex-direction: row;
     }
@@ -451,6 +493,13 @@ button{
     .started-btm-btn{
         display: block;
     }
+    .buy-sell-wrapper{
+        flex-direction: row;
+       
+      }
+      .footer-content-wraper{
+        flex-direction: row;
+       }
 }
 
 
